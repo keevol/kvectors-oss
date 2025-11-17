@@ -17,6 +17,12 @@ KVectors is a vector store implemented by pure java (Scala 2.12 in fact 🤣).
 ╚═╝  ╚═╝   ╚═══╝   ╚══════╝  ╚═════╝    ╚═╝     ╚═════╝  ╚═╝  ╚═╝ ╚══════╝
 ```
 
+一切源于：
+
+- [AI、开源与微服务：老王两个观点，谈谈个人想法](https://afoo.me/posts/2025-11-12-AI-oss-and-microservices.html)
+- [KVectors向量数据库准备开源啦～](https://afoo.me/posts/2025-11-16-prepare-to-open-source-kvectors.html)
+    - https://mp.weixin.qq.com/s/HETMxidG_0vGJsxYgDFMPQ?scene=1
+
 # Features
 
 - Pure Java/Scala (Make Java Great Again 🤪)
@@ -26,12 +32,12 @@ KVectors is a vector store implemented by pure java (Scala 2.12 in fact 🤣).
 - [Multiple storage layers](#kvectors-storge-layer-hierarchy) supported.
 - Dot Product Similarity, Cosine Similarity and Euclidean distance Functions are supported
 - Different indexing strategies for different scenarios
-    - FLAT
-    - HNSW
-    - HNSW_PQ
+    - FLAT  ![](https://img.shields.io/badge/KVectors-OSS-green.svg?style=flat)
+    - HNSW  ![](https://img.shields.io/badge/KVectors-OSS-green.svg?style=flat)
+    - HNSW_PQ ![](https://img.shields.io/badge/KVectors-OSS-green.svg?style=flat)
     - IVF (improved IVF index with k-means++ for clustering)
     - IVF_RABITQ
-    - Hyperplanes LSH (a memory killer 😆)
+    - Hyperplanes LSH (a memory killer 😆) ![](https://img.shields.io/badge/KVectors-OSS-green.svg?style=flat)
 - [Multiple access and management channels](#kvectors-access--management-layer) support
     - Admin web console inlined (may be separated into a standalone app in the future?)
     - Web API and gRPC service inlined.
@@ -66,6 +72,8 @@ We also provide corresponding training on KVectors and Vector Database design an
 
 ![](https://files.catbox.moe/sbdgsa.jpg)
 ![](./docs/images/kvec-training-ppt-2.jpg)
+![](https://files.catbox.moe/xg1zx4.jpg)
+![](https://files.catbox.moe/twrx9f.jpg)
 
 Find more details at [https://keevol.cn](https://keevol.cn)
 
@@ -86,6 +94,10 @@ Find more details at [https://keevol.cn](https://keevol.cn)
 3. 第三版重塑整体设计
     - db-collection-store三级概念
     - 存储与索引分离
+
+# 商业洽谈
+
+https://keevol.cn/#kvectors
 
 
 
