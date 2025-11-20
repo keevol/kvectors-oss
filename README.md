@@ -95,6 +95,15 @@ Find more details at [https://keevol.cn](https://keevol.cn)
     - db-collection-store三级概念
     - 存储与索引分离
 
+# 更多文档
+
+- [KVectors设计与使用手册](./manual/KVectors设计与使用手册.md)
+	- [PDF下载](./manual/KVectors设计与使用手册.md.pdf)
+- [KVectors运维手册](./manual/KVectors运维手册.md)
+	- [PDF下载](./manual/KVectors运维手册.md.pdf)
+- [deepwiki](https://deepwiki.com/keevol/kvectors-oss)
+
+
 # 商业洽谈
 
 https://keevol.cn/#kvectors
